@@ -12,6 +12,81 @@
 
 *MENTOR*: NEELA SANTOSH
 
+##I developed a Library Management System as a full-stack project using MERN stack technologies — MongoDB, Express.js, React.js, and Node.js.
+The goal was to create a system where users can manage books: Add, View, Edit, and Delete them — fully powered by a backend API and connected to a modern frontend interface.
+
+This project helped me understand RESTful API architecture, React component-based UI, client-server communication using Axios, and how to run full-stack apps on my local machine.
+
+🔧 Software & Tools I Used
+Here’s everything I installed and used to build this project:
+
+🧠 1. Node.js & NPM
+I installed Node.js (v22.x) to run JavaScript code outside the browser.
+
+NPM (Node Package Manager) helped me install backend and frontend packages like:
+
+express, cors, mongoose, dotenv (backend)
+
+axios, react-router-dom (frontend)
+
+💾 2. MongoDB
+I used MongoDB as the database to store books.
+
+I connected it using mongoose, a MongoDB ODM (Object Data Modeling) tool.
+
+⚙️ 3. Express.js
+I used Express to build the RESTful API in the backend.
+
+Each route supported CRUD operations for books.
+
+🖥️ 4. React.js
+I created a React app using create-react-app.
+
+It included pages like:
+
+Home (Book List)
+
+Add/Edit Book Form
+
+React Router handled page navigation.
+
+📡 5. Axios
+Axios was used in the frontend to make HTTP requests to the backend API.
+
+🌐 6. VS Code
+I used Visual Studio Code for writing and organizing code in both backend and frontend folders.
+
+🧪 7. Postman (optional)
+I also used Postman for testing API endpoints before connecting the frontend.
+
+🧱 Project Structure (Brief Overview)
+📂 Backend Folder (library-api)
+server.js: Main entry point
+
+routes/bookRoutes.js: All API endpoints
+
+models/Book.js: Mongoose schema for books
+
+config/db.js: MongoDB connection setup
+
+📂 Frontend Folder (library-frontend)
+src/components/BookList.js: Displays all books
+
+src/pages/AddEditPage.js: Form to add or edit a book
+
+src/services/api.js: Axios API calls
+
+App.js: Main router and layout
+
+⚙️ Functionality
+Feature	Description
+➕ Add Book	Users can add a new book (title, author, genre, year)
+📋 View Books	All books are displayed in a list from the MongoDB database
+✏️ Edit Book	Books can be edited with updated info
+🗑️ Delete Book	Books can be deleted from the list/database
+
+All data flows from frontend form ➜ API ➜ MongoDB, and updates show live on the React page.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

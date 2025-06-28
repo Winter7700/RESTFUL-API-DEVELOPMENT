@@ -1,5 +1,17 @@
 # Getting Started with Create React App
 
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME*: SANKET SAVLERAM HOLKAR
+
+*INTERN ID*: CT04DF2639
+
+*DOMAIN*: SOFTWARE DEVELOPMENT
+
+*DURATION*: 4 WEEKS
+
+*MENTOR*: NEELA SANTOSH
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
